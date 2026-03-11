@@ -34,6 +34,15 @@ spring-boot-elk-logging/
 └── README.md
 ```
 
+
+## Microservices Expansion Guide
+
+If you want to evolve this project into a full microservices platform with **Eureka**, **API Gateway**, **user/order/payment services**, and **Elasticsearch-backed search**, follow:
+
+- [`docs/microservices-elk-step-by-step.md`](docs/microservices-elk-step-by-step.md)
+
+This guide is organized as an implementation sequence, with suggested service boundaries, configs, and validation checklist.
+
 ## Maven Dependencies
 
 Main dependencies included in `pom.xml`:
